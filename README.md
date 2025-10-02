@@ -1,95 +1,98 @@
-QA Capstone Project – ParaBank 
+QA Capstone Project – Parabank Online Banking System 
 
-Overview 
+📌 Project Overview 
 
-This repository contains the deliverables for my ParaBank Capstone Project, completed during a Software Testing Bootcamp. The goal of the project was to simulate a real-world QA workflow, covering the full cycle from requirement analysis to test closure.  
+This document provides an overview of the QA Capstone Project for the Parabank Online Banking System. It contains all key deliverables prepared during the QA lifecycle. The project simulates end-to-end software testing activities following ISTQB standards, including requirement analysis, test planning, test design, execution, defect reporting, and closure. 
 
-The project gave me hands-on experience in:  
+📂 Deliverables in this Repository 
 
-Requirement analysis and validation  
+Deliverable 
 
-Test planning and strategy design  
+File 
 
-Test case design and execution (positive, negative, boundary, and edge cases)  
+Description 
 
-Defect logging, tracking, and reporting  
+📑 Requirement Analysis Document 
 
-Mapping requirements to test cases (traceability)  
+Requirement_Analysis_Document.docx 
 
-Preparing a final test summary report with sign-off decision 
+Defines scope, FR1–FR12, NFR1–NFR5, assumptions, and acceptance criteria. 
 
- 
+📝 Test Plan 
 
-Repository Structure 
+Test_Plan_Parabank.docx 
 
-qa-capstone-project/ 
+Outlines testing scope, strategy, environment, risks, and sign-off criteria. 
 
-│ 
+✅ Test Cases 
 
-├── README.md: Project overview (this file) 
+Test_Cases_Parabank.xlsx 
 
-├── Requirement_Analysis.docx: Functional & non-functional requirements 
+Designed test cases mapped to requirements, with executed results (Pass/Fail). 
 
-├── Test_Plan.docx: Test scope, objectives, and approach 
+🔗 Traceability Matrix 
 
-├── Test_Cases.xlsx: Designed and executed test cases 
+Traceability_Matrix.xlsx 
 
-├── Defect_Report.xlsx: Logged defects with severity and status 
+Maps requirements (FR1–FR12, NFR1–NFR5) to test cases to ensure 100% coverage. 
 
-├── Traceability_Matrix.xlsx: Requirements → Test Cases → Defects mapping 
+🐞 Defect Report 
 
-└── Test_Summary_Report.docx: Final execution summary & sign-off decision 
+Defect_Report.xlsx 
 
- 
+Lists defects found during execution with severity and priority. 
 
- 
+📊 Test Summary Report 
 
-Tools & Technologies 
+Test_Summary_Report.docx 
 
-Documentation: Microsoft Word, Excel, Google Docs/Sheets  
+Provides test statistics, defect summary, risks, and final sign-off. 
 
-Bug Tracking: Excel (simulating JIRA/Bugzilla workflows)  
+📘 Lessons Learned 
 
-Testing Types: Functional, UI, Negative, Boundary, Regression, Smoke  
+Lessons_Learned.md 
 
-System Under Test (SUT): ParaBank Demo Application 
+Insights gained from executing the QA lifecycle in this project. 
 
- 
+🛠️ Tools & Technologies Used 
 
-Modules Tested 
+- Test Management: MS Excel, Google Docs 
+- Defect Tracking: JIRA / Excel 
+- Collaboration: GitHub, Slack/WhatsApp 
+- Browsers Tested: Chrome, Firefox, Edge, Safari 
 
-User Registration  
+🚀 Testing Scope 
 
-Login & Authentication  
+In Scope: 
 
-Account Overview  
+- User Registration & Login 
+- Fund Transfer 
+- Account Services (Overview & Activity) 
+- Customer Services 
 
-Funds Transfer  
+Out of Scope: 
 
-Bill Payment  
+- Automation scripting 
+- API-level testing 
+- Load/Performance testing beyond response checks 
+- Mobile app testing 
 
-Find Transactions 
+📅 Project Workflow 
 
- 
+1. Requirement Analysis (RAD) 
+2. Test Plan Design 
+3. Test Case Design (≥30 cases) 
+4. Execution & Defect Reporting 
+5. RTM Completion (100% coverage) 
+6. Test Summary & Closure 
+7. Lessons Learned 
 
-Key Learnings 
+📌 How to Navigate 
 
-Delivered a complete QA project aligned with industry standards  
+- Open Word/Excel/Markdown files for each deliverable. 
+- Trace requirements across RAD → Test Cases → RTM → Defect Report → Summary Report. 
+- Use this repo as a sample QA portfolio project. 
 
-Strengthened manual testing and documentation skills  
+✅ Final Status 
 
-Practiced linking requirements, test cases, and defects  
-
-Produced professional QA artifacts that reflect real workplace deliverables 
-
- 
-
-Author 
-
-Fanen Iorver 
-
-📧 faneniorver@gmail.com 
-
- https://linkedin.com/in/faneniorver 
-
-This project demonstrates my ability to manage the QA lifecycle from requirement analysis to defect reporting and final sign-off, like what is expected in real QA roles. 
+Project executed successfully with all required QA deliverables submitted. 
