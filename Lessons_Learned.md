@@ -1,98 +1,49 @@
-QA Capstone Project – Parabank Online Banking System 
+Lessons Learned – Parabank QA Project 
 
-📌 Project Overview 
+1. Introduction 
 
-This document provides an overview of the QA Capstone Project for the Parabank Online Banking System. It contains all key deliverables prepared during the QA lifecycle. The project simulates end-to-end software testing activities following ISTQB standards, including requirement analysis, test planning, test design, execution, defect reporting, and closure. 
+This document summarizes the lessons learned during the execution of the Parabank QA project. The goal is to highlight successes, challenges, and recommendations that can improve future QA engagements. 
 
-📂 Deliverables in this Repository 
+2. Successes 
 
-Deliverable 
+Clear documentation (PRD, RAD, Test Plan, Test Cases, Traceability Matrix, Defect Report, and Test Summary Report) ensured proper alignment with requirements. 
 
-File 
+Systematic execution of functional (R1–R12) and non-functional (NFR1–NFR5) test cases provided wide coverage. 
 
-Description 
+Collaborative step-by-step GitHub integration improved version control and traceability of QA deliverables. 
 
-📑 Requirement Analysis Document 
+Identified and documented defects effectively, leading to better system quality insights. 
 
-Requirement_Analysis_Document.docx 
+3. Challenges 
 
-Defines scope, FR1–FR12, NFR1–NFR5, assumptions, and acceptance criteria. 
+Some mismatches between PRD requirements and implemented system functionality (registration flow and account lock behavior). 
 
-📝 Test Plan 
+Non-functional testing (performance, concurrency) required manual workarounds, slowing execution. 
 
-Test_Plan_Parabank.docx 
+GitHub workflow initially caused minor confusion around file tracking/untracked files. 
 
-Outlines testing scope, strategy, environment, risks, and sign-off criteria. 
+Inconsistent error handling in Parabank led to test failures that were not properly user-friendly (vague system error messages). 
 
-✅ Test Cases 
+4. Key Takeaways 
 
-Test_Cases_Parabank.xlsx 
+Requirements traceability (linking R1–R12 and NFR1–NFR5 to test cases) is critical in ensuring no requirement is left untested. 
 
-Designed test cases mapped to requirements, with executed results (Pass/Fail). 
+Early validation of Test Environment setup would reduce wasted time debugging environmental vs. functional issues. 
 
-🔗 Traceability Matrix 
+Proper status color coding in test execution results made reporting and analysis faster and clearer. 
 
-Traceability_Matrix.xlsx 
+Incremental commits to GitHub proved more efficient than batching large sets of files. 
 
-Maps requirements (FR1–FR12, NFR1–NFR5) to test cases to ensure 100% coverage. 
+5. Recommendations for Future Projects 
 
-🐞 Defect Report 
+Automate more test scenarios with tools like Selenium or JMeter for faster execution and better coverage. 
 
-Defect_Report.xlsx 
+Establish a CI/CD pipeline to integrate test automation into GitHub workflows. 
 
-Lists defects found during execution with severity and priority. 
+Improve documentation structure by maintaining QA deliverables in dedicated folders. 
 
-📊 Test Summary Report 
+Enhance defect categorization with severity, priority, and reproducibility notes to streamline triage. 
 
-Test_Summary_Report.docx 
+6. Conclusion 
 
-Provides test statistics, defect summary, risks, and final sign-off. 
-
-📘 Lessons Learned 
-
-Lessons_Learned.md 
-
-Insights gained from executing the QA lifecycle in this project. 
-
-🛠️ Tools & Technologies Used 
-
-- Test Management: MS Excel, Google Docs 
-- Defect Tracking: JIRA / Excel 
-- Collaboration: GitHub, Slack/WhatsApp 
-- Browsers Tested: Chrome, Firefox, Edge, Safari 
-
-🚀 Testing Scope 
-
-In Scope: 
-
-- User Registration & Login 
-- Fund Transfer 
-- Account Services (Overview & Activity) 
-- Customer Services 
-
-Out of Scope: 
-
-- Automation scripting 
-- API-level testing 
-- Load/Performance testing beyond response checks 
-- Mobile app testing 
-
-📅 Project Workflow 
-
-1. Requirement Analysis (RAD) 
-2. Test Plan Design 
-3. Test Case Design (≥30 cases) 
-4. Execution & Defect Reporting 
-5. RTM Completion (100% coverage) 
-6. Test Summary & Closure 
-7. Lessons Learned 
-
-📌 How to Navigate 
-
-- Open Word/Excel/Markdown files for each deliverable. 
-- Trace requirements across RAD → Test Cases → RTM → Defect Report → Summary Report. 
-- Use this repo as a sample QA portfolio project. 
-
-✅ Final Status 
-
-Project executed successfully with all required QA deliverables submitted. 
+The Parabank QA project provided valuable insights into both functional and non-functional quality aspects of the system. By applying the lessons learned, future QA efforts can be made more efficient, accurate, and collaborative. 
